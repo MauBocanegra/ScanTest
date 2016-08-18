@@ -1,0 +1,74 @@
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardElevation="6dp"
+    card_view:cardCornerRadius="4dp">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="maubocanegra.scantest.DetalleProducto.DetalleProducto"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/titleTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Titulo"
+        android:gravity="center_horizontal"
+        android:textColor="#333"
+        android:textSize="32sp" />
+    <TextView
+        android:id="@+id/barcodeTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="1234567890"
+        android:gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/activity_vertical_margin" />
+
+    <TextView
+        android:id="@+id/descTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Descripcion de algunas lineas de tamaño mediano"
+        android:gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <FrameLayout
+        android:id="@+id/frameLayoutMapa"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_margin="@dimen/activity_horizontal_margin"/>
+
+    <TextView
+        android:id="@+id/precioTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="$0.0"
+        android:gravity="center_horizontal"
+        android:textColor="#333"
+        android:textSize="18sp" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/activity_vertical_margin" />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/activity_vertical_margin" />
+
+</LinearLayout>
+
+    </android.support.v7.widget.CardView>

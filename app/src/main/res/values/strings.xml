@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ScanTest</string>
+
+    <string name="AwerenessApiKey">AIzaSyDfh6-uMoKTpnvOSCqHV2fYHUHVwvToQx4</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- AgregarProducto -->
+    <string name="agregar_titulo">Agregar producto</string>
+    <string name="agregar_hint_nombre">Nombre del producto</string>
+    <string name="agregar_hint_descripcion">Descripcion del producto</string>
+    <string name="agregar_hint_precio">Precio</string>
+</resources>

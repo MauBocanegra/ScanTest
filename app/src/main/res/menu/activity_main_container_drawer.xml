@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <!--
+        <item
+            android:id="@+id/nav_buscar"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Buscar" />
+        -->
+        <item
+            android:id="@+id/nav_lista"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Lista de productos" />
+        <!--
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Slideshow" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic
+            _menu_manage"
+            android:title="Tools" />
+            -->
+    </group>
+
+    <item android:title="Gestionar">
+        <menu>
+            <!--
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            -->
+            <item
+                android:id="@+id/nav_agregar"
+                android:icon="@drawable/ic_add_photo"
+                android:title="Agregar producto" />
+        </menu>
+    </item>
+
+</menu>
